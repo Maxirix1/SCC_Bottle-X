@@ -1,4 +1,3 @@
-import {Link} from 'react-router-dom'
 import { useState } from 'react';
 import Logo from './assets/Wat_Suthiwararam_School_Crest.png';
 import Main from './assets/main_project.png';
@@ -31,7 +30,7 @@ function App() {
             <li><a href="#about">about</a></li>
             <li><a href="#">manage</a></li>
             <li><a href="#">manual</a></li>
-            <li><Link to="/login" className="active">login</Link></li>
+            <li><a to="/login" className="active">login</a></li>
           </ul>
         </nav>
         <label htmlFor="nav_check" className="hamburger">

@@ -51,10 +51,10 @@
 }
 @media screen and (max-width: 1536px) {
     header {
-        height: 70px;
+        height: 50px;
     }
     .logo img {
-        width: 30%;
+        width: 25%;
     }
     .text_head h1 {
         font-size: 150px;
@@ -74,6 +74,10 @@
     }
     .container-about .img-show {
         margin-top: 30vh;
+    }
+    nav ul li a {
+        padding: 3px 12px;
+        border-radius: 8px;
     }
 }
 /* ---------------------------------Navbar------------------------------ */

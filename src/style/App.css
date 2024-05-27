@@ -25,7 +25,7 @@ img {
 .re-home {
   position: fixed;
   background-color: #6161615f;
-  padding: 10px 15px;
+  padding: 1px 4px;
   border-radius: 999px;
   font-size: 1.5rem;
   right: 60px;
@@ -194,6 +194,7 @@ h1, h2, p, a button {
   margin: 4vh 0;
   outline: none;
   padding: 40px 43px;
+  border-radius: 20px;
   position: relative;
   text-align: center;
   text-decoration: none;
@@ -299,4 +300,5 @@ h1, h2, p, a button {
   font-size: 14px;
   margin: 0;
   margin-top: 1vh;
+  border-radius: 10px;
 }
