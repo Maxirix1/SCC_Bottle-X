@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 import { useState } from 'react';
 import Logo from './assets/Wat_Suthiwararam_School_Crest.png';
 import Main from './assets/main_project.png';
@@ -6,7 +7,6 @@ import './style/responsive.css';
 import 'boxicons'
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <main>
@@ -31,7 +31,7 @@ function App() {
             <li><a href="#about">about</a></li>
             <li><a href="#">manage</a></li>
             <li><a href="#">manual</a></li>
-            <li><a href="login.html" className="active">login</a></li>
+            <li><Link to="/login" className="active">login</Link></li>
           </ul>
         </nav>
         <label htmlFor="nav_check" className="hamburger">

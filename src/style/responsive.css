@@ -49,6 +49,33 @@
         width: 85%;
     }
 }
+@media screen and (max-width: 1536px) {
+    header {
+        height: 70px;
+    }
+    .logo img {
+        width: 30%;
+    }
+    .text_head h1 {
+        font-size: 150px;
+    }
+    .text_head h2 {
+        font-size: 60px;
+    }
+    .text_head p {
+        font-size: 18px;
+    }
+    .text_head button {
+        font-size: 20px;
+        padding: 25px;
+    }
+    .container-about {
+        padding: 0 15vw;
+    }
+    .container-about .img-show {
+        margin-top: 30vh;
+    }
+}
 /* ---------------------------------Navbar------------------------------ */
 @media only screen and (max-width: 1100px) {
     header {
@@ -346,7 +373,7 @@
 }
 @media only screen and (max-height: 780px){
     .text_head {
-        margin-top: -33vh;
+        margin-top: -50vh;
     }
 
 }
