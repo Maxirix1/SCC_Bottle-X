@@ -1,26 +1,9 @@
-import React, { useState } from 'react';
-import './style/login.css'; // Assuming you have your CSS in App.css or appropriate file
+import React from 'react'
+import '../style/login.css'
 
-const Login = () => {
-    const [studentId, setStudentId] = useState('');
-    const [password, setPassword] = useState('');
-
-    const handleStudentIdChange = (e) => {
-        setStudentId(e.target.value);
-    };
-
-    const handlePasswordChange = (e) => {
-        setPassword(e.target.value);
-    };
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Add your form submission logic here
-        console.log('Student ID:', studentId);
-        console.log('Password:', password);
-    };
-
-    return (
+function Login () {
+  return (
+    <div>
         <div className="container">
             <div className="circle"></div>
             <div className="content-login">
@@ -54,7 +37,8 @@ const Login = () => {
                 </form>
             </div>
         </div>
-    );
-};
+    </div>
+  )
+}
 
-export default Login;
+export default Login
